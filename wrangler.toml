@@ -1,0 +1,10 @@
+name = "consultorio-dra-ruata"
+compatibility_date = "2024-01-01"
+
+[build]
+command = "npm run build"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200

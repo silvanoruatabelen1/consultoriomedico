@@ -1,0 +1,46 @@
+{
+  "name": "consultorio-dra-ruata",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.48.2",
+    "@hookform/resolvers": "^3.3.2",
+    "zod": "^3.22.4",
+    "@supabase/supabase-js": "^2.38.4",
+    "@supabase/auth-helpers-nextjs": "^0.8.7",
+    "@supabase/auth-helpers-react": "^0.4.2",
+    "crypto-js": "^4.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-hot-toast": "^2.4.1",
+    "@ohif/core": "^3.0.0",
+    "@ohif/ui": "^3.0.0",
+    "@ohif/viewer": "^3.0.0",
+    "cornerstone-core": "^2.6.0",
+    "cornerstone-web-image-loader": "^2.1.0",
+    "cornerstone-wado-image-loader": "^4.13.0",
+    "dicom-parser": "^1.8.28",
+    "dcmjs": "^0.31.2"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/crypto-js": "^4.2.1",
+    "@types/dicom-parser": "^1.8.0",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4"
+  }
+}
