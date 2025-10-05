@@ -5,12 +5,16 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  // Cloudflare Pages optimization
+  // Netlify optimization
   experimental: {
     esmExternals: false
   },
   // Disable middleware for static export
-  middleware: undefined
+  middleware: undefined,
+  // Netlify specific optimizations
+  assetPrefix: process.env.NODE_ENV === 'production' ? '' : '',
+  basePath: '',
+  distDir: '.next'
 }
 
 module.exports = nextConfig
