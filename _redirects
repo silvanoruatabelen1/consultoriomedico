@@ -1,2 +1,10 @@
-# Redirects for SPA
+# Redirects for SPA routing
 /*    /index.html   200
+
+# API routes (if using Cloudflare Functions)
+/api/*    /api/:splat    200
+
+# Security redirects
+/mis-estudios    /mis-estudios/    301
+/staff    /staff/    301
+/medical-view/*    /medical-view/:splat/    301
